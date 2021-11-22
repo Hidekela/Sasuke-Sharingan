@@ -1,0 +1,219 @@
+*
+{
+	border: solid gray 0px;
+}
+body
+{
+	animation: body 100s 2s infinite;
+}
+@keyframes body
+{
+	0.39%{background: white;}
+	0.5%{background:url('rinnengan.png');}
+	2%{background: white;}
+	2.1%{background: white;}
+	2.2%{background: url('sharingan.png');}
+	10%{background: url('sharingan.png');}
+	10.5%{background: white;}
+	40%{background:white;}
+	41%{background: url('f.png');}
+	100%{background: url('f.png');}
+}
+h1
+{
+	animation: h1 100s 2s infinite;
+	position: absolute;
+	top: 80%;
+	color: white;
+	min-width: 250px;
+	right: 25%; 
+	font-size: 50px; 
+	font-family: Verdana;
+	top: 60%;
+	margin: 0;
+}
+strong
+{
+	font-family: Comic Sans MS;
+}
+@keyframes h1
+{
+	0%{opacity: 0;}
+	42%{opacity:0; font-size: 50px; top: 60%; color: white;}
+	42.1%{right: 0; top: 35%; font-size: 130px; color: aqua; opacity: 0.5;}
+	42.59%{right: 0; top: 35%; font-size: 130px;color: aqua; opacity: 0.5;}
+	42.6%{right: 25%; top: 60%; font-size: 50px; color: white;  opacity: 0.1;}
+	42.61%{right: 0; top: 35%; font-size: 130px; color: aqua; opacity: 0.5;}
+	42.63%{right: 25%; top: 60%; font-size: 50px; color: white; opacity: 0.2;}
+	43.49%{right: 25%; top: 60%; font-size: 50px; color: white; opacity: 0.3;}
+	43.5%{right: 0; top: 35%; font-size: 130px; color: aqua; opacity: 0.5;}
+	43.52%{right: 25%; top: 60%; font-size: 50px; color: white; opacity: 0.4;}
+	43.53%{right: 0; top: 35%; font-size: 130px; color: aqua; opacity: 0.5;}
+	43.54%{right: 25%; top: 60%; font-size: 50px; color: white; opacity: 0.5;}
+	43.55%{right: 0; top: 35%; font-size: 130px; color: aqua; opacity: 0.5;}
+	43.59%{right: 25%; top: 60%; font-size: 50px; color: white; opacity: 0.6;}
+	43.6%{right: 0; top: 35%; font-size: 130px; color: aqua; opacity: 0.5;}
+	43.7%{right: 25%; top: 60%; font-size: 50px; color: white; opacity: 0.7;}
+	43.8%{right: 0; top: 35%; font-size: 130px; color: aqua; opacity: 0.5;}
+	43.94%{right: 25%; top: 60%; font-size: 50px; color: white; opacity: 0.8;}
+	43.95%{right: 0; top: 35%; font-size: 130px; color: aqua; opacity: 0.5;}
+	44%{right: 0; top: 35%; font-size: 130px; color: aqua; opacity: 0.5;}
+	45.5%{right: 25%; top: 60%; font-size: 50px; color: white; opacity: 0.9;}
+	46.5%{right: 0; top: 35%; font-size: 130px; color: aqua; opacity: 0.5;}
+	46.89%{right: 25%; top: 60%; font-size: 50px; color: white; opacity: 1;}
+	46.9%{right: 0; top: 35%; font-size: 130px; color: aqua; opacity: 0.5;}
+	47%{opacity: 1; font-size: 50px; top: 60%; right: 25%; color: white;}
+	100%{opacity: 1; font-size: 50px; top: 60%;}
+}
+.v
+{
+	animation: voiture 100s 2s infinite;
+	z-index: 4;
+}
+.s 
+{
+	position: absolute;
+	left: 75%;
+	animation: sasuke 100s 2s infinite;
+	border-radius: 5px;
+	visibility: visibile;
+}
+#fe1 , #fe2, #fe3
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.p, .pp
+{
+	background: gray;
+	height: 10px;
+	position: absolute;
+	top:83px;
+	display: inline;
+}
+.p
+{
+	width: 70%;
+	left: 0;
+	visibility: visibile;
+	animation: p 100s 2s infinite;
+}
+@keyframes p 
+{
+	39.5%{opacity: 1;}
+	40%{opacity: 0;}
+	100%{opacity: 0;}
+}
+.pp
+{
+	width: 30%;
+	background: gray;;
+	right: 0;
+	animation: pp 100s 2s infinite;
+}
+@keyframes pp
+{
+	0%{height: 10px;}
+	2.5%{height: 10px; top: 83px;}
+	3%{height: 4px; top: 89px;}
+	13%{height: 0; top:93px;}
+	100%{height: 0; top:93px;}
+}
+@keyframes voiture
+{
+	1.5%{transform: translateX(350%)}
+	
+	
+	9%{position: absolute; bottom: 83.5%; transform: translateX(360%) ;}
+	10%{bottom: 0; transform: rotate(180deg) translateX(-400%); opacity:1;}
+	20%{bottom: 0; transform: rotate(180deg) translateX(-400%); opacity: 0.5;}
+	30%{bottom: 0; transform: rotate(180deg) translateX(-400%); opacity: 0;}
+	100%{bottom: 0; transform: rotate(180deg) translateX(-400%); opacity: 0;}
+}
+@keyframes sasuke
+{
+	0.72%{left:75%;}
+	0.73%{left: 50%; box-shadow: 4px -1.5px 30px purple;}
+	39.5%{left: 50%; box-shadow: 4px -1.5px 30px purple; opacity: 1;}
+	40%{opacity: 0;}
+	100%{opacity: 0;}
+}
+div
+{
+	animation: feu 100s infinite;
+}
+.div
+{
+	animation: fume 100s infinite;
+}
+@keyframes fume
+{
+	0%{visibility: hidden;}
+	20%{visibility: hidden; opacity: 0.1;}
+	36%{visibility: visible; opacity: 1;}
+	40%{opacity: 0;}
+	100%{opacity: 0;}
+}
+#fume1, #fume2
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+#fume1
+{
+	animation: fume1 1s 12s infinite;
+}
+#fume2
+{
+	animation: fume2 1s 12s infinte;
+}
+@keyframes fume1
+{
+	0%{z-index:1;}
+	50%{z-index:1;}
+}
+@keyframes fume2
+{
+	0%{z-index:0;}
+	50%{z-index:2;}
+	100%{z-index:2;}
+}
+@keyframes feu
+{
+	0%{visibility: hidden;}
+	12%{visibility: hidden; opacity: 0.5;}
+	36%{visibility: visible; opacity: 1;}
+	37%{opacity: 0;}
+	100%{opacity: 0;}
+}
+#fe1
+{
+	z-index: 0;
+	animation: fe1 2.5s 10s infinite;
+}
+#fe2
+{
+	z-index: 0;
+	animation: fe2 2.5s 10s infinite;
+}
+#fe3
+{
+	z-index: 0;
+	animation: fe3 2.5s 10s infinite;
+}
+@keyframes fe1
+{
+	0%{z-index:1;}
+}
+@keyframes fe2
+{
+	0%{z-index:0;}
+	50%{z-index: 2;}
+}
+@keyframes fe3
+{
+	0%{z-index:0;}
+	100%{z-index: 3;}
+}
